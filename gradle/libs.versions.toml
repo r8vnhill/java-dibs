@@ -1,2 +1,9 @@
 [versions]
 java-dibs = "1.0.0"
+junit = "5.11.3"
+
+[libraries]
+junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit" }
+
+[bundles]
+testing = ["junit-jupiter-api"]
