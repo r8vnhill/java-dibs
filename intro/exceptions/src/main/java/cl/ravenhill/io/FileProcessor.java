@@ -40,7 +40,13 @@ public class FileProcessor {
         System.out.println(processFile("intro/exceptions/src/main/java/cl/ravenhill/io/FileProcessor.java"));
         System.out.println(processFile("intro/exceptions/src/main/java/cl/ravenhill/io/NonExistentFile.java"));
         /* Output:
+        package cl.ravenhill.io;package cl.ravenhill.io;
 
+        import org.jetbrains.annotations.NotNull;
+
+        ...
+
+        File not found: intro\exceptions\src\main\java\cl\ravenhill\io\NonExistentFile.java (The system cannot find the file specified)
          */
     }
 }

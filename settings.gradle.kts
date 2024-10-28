@@ -19,3 +19,4 @@ dependencyResolutionManagement {
 }
 include("intro:exceptions")
 include("oop:static")
+include("fp:functors:result")
