@@ -18,5 +18,6 @@ dependencyResolutionManagement {
     }
 }
 include("intro:exceptions")
+include("testing:matchers:custom")
 include("oop:static")
 include("fp:functors:result")

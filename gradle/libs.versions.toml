@@ -4,6 +4,7 @@ junit = "5.11.3"
 jqwik = "1.9.1"
 hamcrest = "3.0"
 annotations = "25.0.0"
+assertj ="3.26.3"
 
 [libraries]
 junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit" }
@@ -12,6 +13,7 @@ jqwik-core = { module = "net.jqwik:jqwik", version.ref = "jqwik" }
 jqwik-engine = { module = "net.jqwik:jqwik-engine", version.ref = "jqwik" }
 hamcrest = { module = "org.hamcrest:hamcrest", version.ref = "hamcrest" }
 annotations = { module = "org.jetbrains:annotations", version.ref = "annotations" }
+assertj-core = { module = "org.assertj:assertj-core", version.ref = "assertj" }
 
 [bundles]
-testing = ["junit-jupiter-api", "jqwik-core", "jqwik-engine", "hamcrest", "junit-jupiter-engine"]
+testing = ["junit-jupiter-api", "jqwik-core", "jqwik-engine", "hamcrest", "junit-jupiter-engine", "assertj-core"]
