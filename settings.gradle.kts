@@ -17,7 +17,8 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-include("intro:exceptions")
-include("testing:matchers:custom")
-include("oop:static")
 include("fp:functors:result")
+include("intro:exceptions")
+include("oop:anonymous")
+include("oop:static")
+include("testing:matchers:custom")
